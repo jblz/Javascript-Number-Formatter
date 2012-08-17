@@ -1,7 +1,7 @@
 function numberFormatter ( num, places, ksep, dsep ) {
 	var rounder = function( n, places ) {
-		n = parseFloat(n);
-		if( isNaN(n) ) return n;
+		n2 = parseFloat(n);
+		if( isNaN(n2) ) return n;
 		places = parseInt(places);
 		if( isNaN(places) ) places = 0;
 		var factor= Math.pow(10,places);

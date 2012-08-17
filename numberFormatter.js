@@ -49,4 +49,4 @@ function numberFormatter ( num, places, ksep, dsep ) {
 		}
 	});
 	return l + m + r;
-};
+}
